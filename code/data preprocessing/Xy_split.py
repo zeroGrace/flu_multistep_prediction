@@ -73,20 +73,5 @@ for num,k in enumerate(type_keys):
     
     split_xy(data_dict[k], saving_path_dict[k], k)
 
-#log和sadj：删去test文件。原序列test部分为空，test文件无用。
 
-
-# In[16]:
-
-
-#------------------------------------------try------------------------------------
-
-
-# In[7]:
-
-
-data_list = ["201001-202012_train2test1", "201001-202012_train8test2"]
-data_label = data_list[0]
-data_file = pd.read_excel("C:\\D\\HUST\\research_flu_forecast\\data for coding\\" + data_label + "\\ILI_all.xlsx")
-data_file.columns.tolist()
 
